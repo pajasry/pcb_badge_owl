@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Návrh EasyEda
+title: Osazení a oživení
 nav_order: 3
 ---
 
