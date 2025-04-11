@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Install dependencies
+        working-directory: docs  # Ensure that this is the directory with your Gemfile
+        run: bundle install
+
+      - name: Build with Jekyll
+        working-directory: docs  # Jekyll will be run in the docs folder
+        run: bundle exec jekyll build --destination ../_site  # Output to _site outside docs folder
+
+      - name: Create zip of _site directory
+        run: zip -r site.zip ./_site  # Create a zip of the _site directory
+
+      - name: Upload site.zip as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site
+          path: ./site.zip  # Upload the zip file as the artifact
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build_and_deploy  # Ensure this job runs only after the build job completes
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Download jekyll-site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: jekyll-site
+
+      - name: Unzip site.zip
+        run: unzip site.zip -d ./_site  # Unzip the site.zip into _site folder
+
+      - name: Copy contents of _site to root
+        run: |
+          mkdir -p gh-pages
+          rsync -av  ./_site/_site/ gh-pages/  # Copy all files from _site to root of gh-pages
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./gh-pages  # Use the copied files to deploy
+          commit_message: "Deploy Jekyll site to GitHub Pages"
