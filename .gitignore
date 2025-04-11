@@ -1,0 +1,25 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs (WebStorm, RubyMine, etc.)
+.idea/
+
+# Jekyll output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler
+docs/vendor/
+docs/Gemfile.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Node (in case you add JS tooling later)
+node_modules/
