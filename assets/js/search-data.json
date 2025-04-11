@@ -2,14 +2,14 @@
     "doc": "Úvod",
     "title": "Co vyrobíme",
     "content": "This is my homepage. ",
-    "url": "/#co-vyrob%C3%ADme",
+    "url": "/pcb_badge_owl/#co-vyrob%C3%ADme",
     
     "relUrl": "/#co-vyrobíme"
   },"1": {
     "doc": "Úvod",
     "title": "Úvod",
     "content": " ",
-    "url": "/",
+    "url": "/pcb_badge_owl/",
     
     "relUrl": "/"
   }
