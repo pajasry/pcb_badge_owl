@@ -2,140 +2,140 @@
     "doc": "Návrh Inkscape",
     "title": "Krok 1: Vytvoření PCB art v Inkscape",
     "content": "V tomto kroku se naučíme, jak v programu Inkscape vytvořit PCB art – což je grafika, která bude sloužit pro vytvoření obrysu desky, zlatých plošek a silk screen. Inkscape je bezplatný program pro vektorovou grafiku, který nám umožní jednoduše nakreslit všechny potřebné součásti pro náš plošný spoj. ",
-    "url": "/pcb_badge_owl/01_inkscape.html#krok-1-vytvo%C5%99en%C3%AD-pcb-art-v-inkscape",
+    "url": "/01_inkscape.html#krok-1-vytvo%C5%99en%C3%AD-pcb-art-v-inkscape",
     
     "relUrl": "/01_inkscape.html#krok-1-vytvoření-pcb-art-v-inkscape"
   },"1": {
     "doc": "Návrh Inkscape",
     "title": "Co potřebujeme:",
     "content": ". | Počítač s nainstalovaným Inkscape (můžete si ho stáhnout z oficiálních stránek Inkscape) | Představu o rozložení desky (pokud máte nějaký návrh nebo schéma obvodu, bude to výhoda) | . ",
-    "url": "/pcb_badge_owl/01_inkscape.html#co-pot%C5%99ebujeme",
+    "url": "/01_inkscape.html#co-pot%C5%99ebujeme",
     
     "relUrl": "/01_inkscape.html#co-potřebujeme"
   },"2": {
     "doc": "Návrh Inkscape",
     "title": "1. Příprava prostředí v Inkscape",
     "content": "Nejprve otevřeme Inkscape a vytvoříme nový soubor. | Otevřete Inkscape a klikněte na Soubor &gt; Nový. | Pro práci s plošným spojem je dobré změnit rozměry pracovní plochy, aby odpovídaly rozměrům vaší desky. Klikněte na Soubor &gt; Vlastnosti dokumentu, a nastavte vhodnou velikost stránky, např. 100 mm x 100 mm nebo podle velikosti vaší desky. | Vytvořte si 3 vrstvy: . | Cut - pro obrys desky (Board Outline) | Silk - pro bílou barvu (Silk) | Gold - pro zlatou (Solder mask) | . | . ",
-    "url": "/pcb_badge_owl/01_inkscape.html#1-p%C5%99%C3%ADprava-prost%C5%99ed%C3%AD-v-inkscape",
+    "url": "/01_inkscape.html#1-p%C5%99%C3%ADprava-prost%C5%99ed%C3%AD-v-inkscape",
     
     "relUrl": "/01_inkscape.html#1-příprava-prostředí-v-inkscape"
   },"3": {
     "doc": "Návrh Inkscape",
     "title": "2. Vytvoření obrysu desky",
     "content": "Obrys desky je základní tvar plošného spoje. | Nakreslete obrys desky: . | Vektorové křivky | Vektorizace obrázku. | . | Nastavte tloušťku čáry na 1 mm: | . ",
-    "url": "/pcb_badge_owl/01_inkscape.html#2-vytvo%C5%99en%C3%AD-obrysu-desky",
+    "url": "/01_inkscape.html#2-vytvo%C5%99en%C3%AD-obrysu-desky",
     
     "relUrl": "/01_inkscape.html#2-vytvoření-obrysu-desky"
   },"4": {
     "doc": "Návrh Inkscape",
     "title": "3. Vytvoření tvaru pro pájivou masku (zlatá)",
     "content": "Zlaté plošky jsou místa, na které se připojují součástky. Takové plochy nemají nepájivou povrchovou úpravu a je vidět základní materiál PCB - měď. S tímto tvarem opatrně, tam, kde necháme koukat měď, nemůžeme umístit součástky - zkratovaly by se navzájem. ",
-    "url": "/pcb_badge_owl/01_inkscape.html#3-vytvo%C5%99en%C3%AD-tvaru-pro-p%C3%A1jivou-masku-zlat%C3%A1",
+    "url": "/01_inkscape.html#3-vytvo%C5%99en%C3%AD-tvaru-pro-p%C3%A1jivou-masku-zlat%C3%A1",
     
     "relUrl": "/01_inkscape.html#3-vytvoření-tvaru-pro-pájivou-masku-zlatá"
   },"5": {
     "doc": "Návrh Inkscape",
     "title": "4. Vytvoření tvaru pro sítotisk (bílá)",
     "content": "Silk screen je grafika, která obsahuje označení pro jednotlivé součástky (například “R1” pro rezistor nebo “C1” pro kondenzátor). Tato grafika slouží k označení, kde mají být součástky umístěny na desce. Dělá se buď černá pro bílé desky nebo bílá pro všechny ostatní. V našem případě bude vždy bílá. Někteří výrobci dnes nabízejí UV silk screen, kdy na desku přenesou barevný obrázek. ",
-    "url": "/pcb_badge_owl/01_inkscape.html#4-vytvo%C5%99en%C3%AD-tvaru-pro-s%C3%ADtotisk-b%C3%ADl%C3%A1",
+    "url": "/01_inkscape.html#4-vytvo%C5%99en%C3%AD-tvaru-pro-s%C3%ADtotisk-b%C3%ADl%C3%A1",
     
     "relUrl": "/01_inkscape.html#4-vytvoření-tvaru-pro-sítotisk-bílá"
   },"6": {
     "doc": "Návrh Inkscape",
     "title": "Návrh Inkscape",
     "content": " ",
-    "url": "/pcb_badge_owl/01_inkscape.html",
+    "url": "/01_inkscape.html",
     
     "relUrl": "/01_inkscape.html"
   },"7": {
     "doc": "Návrh EasyEda",
     "title": "Krok 2: Vytvoření návrhu PCB v Easy EDA",
     "content": " ",
-    "url": "/pcb_badge_owl/02_easyeda.html#krok-2-vytvo%C5%99en%C3%AD-n%C3%A1vrhu-pcb-v-easy-eda",
+    "url": "/02_easyeda.html#krok-2-vytvo%C5%99en%C3%AD-n%C3%A1vrhu-pcb-v-easy-eda",
     
     "relUrl": "/02_easyeda.html#krok-2-vytvoření-návrhu-pcb-v-easy-eda"
   },"8": {
     "doc": "Návrh EasyEda",
     "title": "Návrh EasyEda",
     "content": " ",
-    "url": "/pcb_badge_owl/02_easyeda.html",
+    "url": "/02_easyeda.html",
     
     "relUrl": "/02_easyeda.html"
   },"9": {
     "doc": "Osazení a oživení",
     "title": "Krok 3: Osazení a oživení",
     "content": " ",
-    "url": "/pcb_badge_owl/03_osazeni.html#krok-3-osazen%C3%AD-a-o%C5%BEiven%C3%AD",
+    "url": "/03_osazeni.html#krok-3-osazen%C3%AD-a-o%C5%BEiven%C3%AD",
     
     "relUrl": "/03_osazeni.html#krok-3-osazení-a-oživení"
   },"10": {
     "doc": "Osazení a oživení",
     "title": "Osazení a oživení",
     "content": " ",
-    "url": "/pcb_badge_owl/03_osazeni.html",
+    "url": "/03_osazeni.html",
     
     "relUrl": "/03_osazeni.html"
   },"11": {
     "doc": "Jak to funguje?",
     "title": "Krok 4: Jak to funguje?",
     "content": " ",
-    "url": "/pcb_badge_owl/04_funkce.html#krok-4-jak-to-funguje",
+    "url": "/04_funkce.html#krok-4-jak-to-funguje",
     
     "relUrl": "/04_funkce.html#krok-4-jak-to-funguje"
   },"12": {
     "doc": "Jak to funguje?",
     "title": "Jak to funguje?",
     "content": " ",
-    "url": "/pcb_badge_owl/04_funkce.html",
+    "url": "/04_funkce.html",
     
     "relUrl": "/04_funkce.html"
   },"13": {
     "doc": "Úvod",
     "title": "Jak se vyrábí plošný spoj",
     "content": "V tomto projektu se seznámíme s celým procesem výroby plošného spoje (DPS - deska plošných spojů nebo PCB - printed circuit board). Podíváme se na to, jak se vytváří design, co všechno umí software pro návrh PCB a ce se všechno musí v továrně stát, abychom desku mohli osadit. Nakonec si PCB osadíme a oživíme. ",
-    "url": "/pcb_badge_owl/#jak-se-vyr%C3%A1b%C3%AD-plo%C5%A1n%C3%BD-spoj",
+    "url": "/#jak-se-vyr%C3%A1b%C3%AD-plo%C5%A1n%C3%BD-spoj",
     
     "relUrl": "/#jak-se-vyrábí-plošný-spoj"
   },"14": {
     "doc": "Úvod",
     "title": "Krok 1: Nakreslení motivu v Inkscape",
     "content": "V prvním kroku si vytvoříme motiv pro náš plošný spoj. K tomu využijeme Inkscape, což je otevřený program pro vektorovou grafiku. Pomocí tohoto programu si nakreslíme pouze “uměleckou část” - tvar desky a grafické prvky. | Vytvoření návrhu - Technologie pro výrobu PCB má omezené možnosti a můžeme použít jenom tři barvy. | Export do formátu - Výstupy jsou potřeba ve formátu png. | . ",
-    "url": "/pcb_badge_owl/#krok-1-nakreslen%C3%AD-motivu-v-inkscape",
+    "url": "/#krok-1-nakreslen%C3%AD-motivu-v-inkscape",
     
     "relUrl": "/#krok-1-nakreslení-motivu-v-inkscape"
   },"15": {
     "doc": "Úvod",
     "title": "Krok 2: Vytvoření návrhu PCB v EasyEDA",
     "content": "V dalším kroku použijeme program EasyEDA, který je zaměřený na návrh plošných spojů. Programy pro návrh PCB fungují podobně. V prvním kroku je potřeba nakreslit elektrotechnické schéma, přiřadit k němu součástky a jejich “footprinty” a nakonec je rozmístit a propojit. | Vytvoření schématu - schéma máte již připravené, jenom si ho prohlédme a popíšeme | Import do EasyEDA: Importujeme náš soubor z Inkscape do EasyEDA a vytvoříme tak základní návrh našeho PCB. | Návrh PCB: Vytvoříme skutečný návrh plošného spoje s přesnými rozměry, umístěním součástek a propojením. | Kontrola: Zkontrolujeme návrh, abychom se ujistili, že vše funguje správně, a že není žádné chyby v návrhu (např. zkraty nebo nesprávné propojení). | Objednání Nic objednávat zatím nebudeme, jenom si ukážeme, jak jednoduché to je. | . ",
-    "url": "/pcb_badge_owl/#krok-2-vytvo%C5%99en%C3%AD-n%C3%A1vrhu-pcb-v-easyeda",
+    "url": "/#krok-2-vytvo%C5%99en%C3%AD-n%C3%A1vrhu-pcb-v-easyeda",
     
     "relUrl": "/#krok-2-vytvoření-návrhu-pcb-v-easyeda"
   },"16": {
     "doc": "Úvod",
     "title": "Krok 3: Výroba v Číně",
     "content": "Po dokončení návrhu pošleme náš projekt na výrobu. Využíváme službu, která nám umožní poslat náš návrh do továren v Číně, kde nám vyrobí skutečný plošný spoj. Tip: Důležité je, že některé společnosti nabízejí levné prototypy PCB, což nám umožňuje testovat náš design před výrobou většího množství. ",
-    "url": "/pcb_badge_owl/#krok-3-v%C3%BDroba-v-%C4%8D%C3%ADn%C4%9B",
+    "url": "/#krok-3-v%C3%BDroba-v-%C4%8D%C3%ADn%C4%9B",
     
     "relUrl": "/#krok-3-výroba-v-číně"
   },"17": {
     "doc": "Úvod",
     "title": "Krok 4: Osazení součástek",
     "content": "Jakmile máme plošný spoj, můžeme začít s jeho osazováním. To znamená, že na desku připevníme všechny potřebné součástky, jako jsou rezistory, kondenzátory, LED diody, čipy a další. | Příprava součástek: Na začátku si připravíme všechny součástky, které budeme potřebovat k osazení. | Osazování: Postupně připojujeme součástky na desku pomocí páječky nebo automatizovaných osazovacích strojů. | Kontrola: Po osazení všech součástek je potřeba desku pečlivě zkontrolovat, zda jsou všechny součástky správně připojeny. | . ",
-    "url": "/pcb_badge_owl/#krok-4-osazen%C3%AD-sou%C4%8D%C3%A1stek",
+    "url": "/#krok-4-osazen%C3%AD-sou%C4%8D%C3%A1stek",
     
     "relUrl": "/#krok-4-osazení-součástek"
   },"18": {
     "doc": "Úvod",
     "title": "Krok 5: Oživení plošného spoje",
     "content": "Po osazení součástek přichází poslední krok, kterým je oživení plošného spoje. To znamená, že připojíme naši desku k napájení a ověříme, zda vše funguje, jak má. | Napájení: Připojíme desku k napájení a zapneme ji. | Testování: Otestujeme, zda všechny obvody fungují správně. Pokud ne, hledáme chyby v návrhu nebo ve spájení. | Úpravy: Pokud objevíme nějaké problémy, provedeme úpravy a znovu otestujeme. | . ",
-    "url": "/pcb_badge_owl/#krok-5-o%C5%BEiven%C3%AD-plo%C5%A1n%C3%A9ho-spoje",
+    "url": "/#krok-5-o%C5%BEiven%C3%AD-plo%C5%A1n%C3%A9ho-spoje",
     
     "relUrl": "/#krok-5-oživení-plošného-spoje"
   },"19": {
     "doc": "Úvod",
     "title": "Úvod",
     "content": " ",
-    "url": "/pcb_badge_owl/",
+    "url": "/",
     
     "relUrl": "/"
   }
